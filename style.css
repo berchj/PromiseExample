@@ -1,0 +1,28 @@
+body{
+    background-color:coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.user{
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    background-color: #fff;
+    width: 40%;
+    padding: 1.5em;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.user:hover{
+    color:#fff;
+    background-color: #000;
+}
+
+.user > li {
+    padding: 0.5em;
+}
+
